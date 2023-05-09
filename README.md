@@ -5,7 +5,7 @@ This workshop is set up following the popular AWS Immersion Day format. It means
 - Large Language Model finetuning
 - Introduction Visual Foundation Models, deployment & inference optimization of Stable Diffusion
 
-The repository is structured as follows: The slides can be found in the GenerativeAIImmersionDayPresentationDeck.pdf residing on root level of the repository. Similarily, the labs can be found in respectively named directories: 
+The repository is structured as follows: The slides can be found in the GenerativeAIImmersionDayPresentationDeck.pdf residing on root level of the repository. Similarily, the labs can be found in respectively named directories:
 - Lab 1 - Hosting Large Language Models can be found in the lab1 directory. Start with the notebook gpt-j-notebook-full.ipynb.
 - Lab 2 - Finetuning Large Language Models can be found in the lab2 directory. Start with the notebook fine-tuning.ipynb.
 - Lab 3 - Hosting Stable Diffusion can be found in the lab3 directory. Start with the notebook JumpStart_Stable_Diffusion_Inference_Only.ipynb.
@@ -50,7 +50,7 @@ You are redirected to the Team Dashboard. Click on AWS Console.
 
 ![Team dashboard](./img/teamDashboard.png)
 
-On the next screen, click on Open AWS Console.
+On the next screen, click on Open Console.
 
 ![Console login](./img/consoleLogin.png)
 
@@ -60,7 +60,7 @@ Amazon SageMaker Studio Access: Amazon SageMaker Studio is a web-based, integrat
 
 If the AWS Account has been provisioned by your AWS Instructor, follow the next steps to access the SageMaker Studio environment:
 
-Open AWS console and switch to AWS region communicated by your instructor. 
+Open AWS console and switch to AWS region communicated by your instructor.
 
 You can find the list of the AWS regions that support SageMaker Studio [here](https://docs.aws.amazon.com/sagemaker/latest/dg/studio.html).
 
@@ -70,11 +70,11 @@ Under services search for Amazon SageMaker.
 
 ![SageMaker](./img/sagemaker.png)
 
-Under Get Started, click on the orange button SageMaker Studio.
+Under Getting Started, click on Studio.
 
 ![SageMaker Studio](./img/sagemakerStudio.png)
 
-A SageMaker Studio environment should already be provisioned. Click on Open Studio (on the right side of the preprovisioned sagemakeruser username).
+A SageMaker Studio environment should already be provisioned. Under Get Started, Click on the orange button Open Studio (a user profile "sagemakeruser" is already selected)
 
 ![SageMaker Domain](./img/sagemakerDomain.png)
 
@@ -86,7 +86,7 @@ You will be redirected to a new web tab that looks like the below figure. Click 
 
 ![SageMaker start](./img/openLauncher.png)
 
-Under Notebooks and compute resources, make sure that the Data Science SageMaker image is selected and click on Notebook - Python 3.
+Under Notebooks and compute resources, make sure that the Data Science SageMaker image and Kernel Python 3 is selected. Click Create notebook.
 
 ![Notebooks & Compute resources](./img/notebooksComputeResources.png)
 
@@ -106,17 +106,29 @@ Congratulations!! You have successfully launched a SageMaker Studio Notebook and
 
 ## Clone Repository
 
-```console
-git clone https://github.com/aristsakpinis93/generative-ai-immersion-day
-```
+In the SageMaker Studio menu bar, click on Git and then on the Clone Git Repository option.
 
-After completion of step 2 you will have llm-immersion-day folder created in left panel of the studio:
+![Menu Git Clone](./img/sagemakerStudioGitClone-01.png)
+
+In the Git repository URL, enter the repository below and click Clone.
+```
+https://github.com/erezzarum/generative-ai-immersion-day
+```
+![Git Clone](./img/sagemakerStudioGitClone-02.png)
+
+After completion you will have the generative-ai-immersion-day folder created in the left panel of the studio:
 
 ![Cloned repo](./img/cloned.png)
 
-Congratulations!! You have successfully downloaded the content of the Generative AI Immersion Day. From now on you can start working on the labs! 
+Congratulations!! You have successfully downloaded the content of the Generative AI Immersion Day. From now on you can start working on the labs!
 
-Lab 1 - Hosting Large Language Models can be found in the lab1 directory. Start with the notebook gpt-j-notebook-full.ipynb.
+# Labs
 
-Lab 2 - Finetuning Large Language Models can be found in the lab2 directory. Start with the notebook fine-tuning.ipynb.
+**Lab 1** - Hosting Large Language Models can be found in the lab1 directory. Start with the notebook **gpt-j-notebook-full.ipynb**.
 
+**Lab 2** - Finetuning Large Language Models can be found in the lab2 directory. Start with the notebook **fine-tuning.ipynb**.
+
+## Notebook configuration
+When launching the notebook, make sure the Data Science image and the Python 3 Kernel is selected, then click on "Select".
+
+![notebook Configuration](./img/notebookConfig.png)
