@@ -3,3 +3,4 @@ model.tar.gz
 *.whl
 *.pt
 .ipynb_checkpoints
+.DS_Store
