@@ -1,17 +1,5 @@
 # Generative AI Immersion Day
 
-This workshop is set up following the popular AWS Immersion Day format. It means to provide guidance on how to get started with Generative AI on AWS. The Immersion Day is split up into the following three blocks, consisting of a theory section covered by slides as well of a hands-on lab each:
-- Introduction Generative AI & Large Language Models, Large Language Model deployment & inference optimization
-- Large Language Model finetuning
-- Introduction Visual Foundation Models, deployment & inference optimization of Stable Diffusion
-
-The repository is structured as follows: The slides can be found in the GenerativeAIImmersionDayPresentationDeck.pdf residing on root level of the repository. Similarily, the labs can be found in respectively named directories:
-- Lab 1 - Hosting Large Language Models can be found in the lab1 directory. Start with the notebook gpt-j-notebook-full.ipynb.
-- Lab 2 - Finetuning Large Language Models can be found in the lab2 directory. Start with the notebook fine-tuning.ipynb.
-- Lab 3 - Hosting Stable Diffusion can be found in the lab3 directory. Start with the notebook JumpStart_Stable_Diffusion_Inference_Only.ipynb.
-
-
-
 For conducting the labs, some basic account setup steps are required. They are described subsequently in what follows.
 
 # Setup
@@ -112,7 +100,7 @@ In the SageMaker Studio menu bar, click on Git and then on the Clone Git Reposit
 
 In the Git repository URL, enter the repository below and click Clone.
 ```
-https://github.com/erezzarum/generative-ai-immersion-day
+https://github.com/aws-samples/generative-ai-on-aws-immersion-day.git
 ```
 ![Git Clone](./img/sagemakerStudioGitClone-02.png)
 
